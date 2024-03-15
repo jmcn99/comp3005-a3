@@ -4,6 +4,12 @@ Joseph McNamara
 101227263
 josephmcnamara@cmail.carleton.ca
 
+## Video Demo
+
+A video demo of the program can be found at the following link:
+
+https://youtu.be/8XFTYNGgh-E
+
 ## Setup
 
 To set up the database, begin by installing PostgreSQL, and create a new database and populate it using the following commands:
@@ -15,7 +21,7 @@ CREATE TABLE students {
 	last_name VARCHAR(255) NOT NULL,
 	email VARCHAR(255) UNIQUE NOT NULL,
 	enrollment_date DATE
-}
+};
 
 INSERT INTO students (first_name, last_name, email, enrollment_date) VALUES
 ('John', 'Doe', 'john.doe@example.com', '2023-09-01'),
