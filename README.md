@@ -8,7 +8,8 @@ josephmcnamara@cmail.carleton.ca
 
 To set up the database, begin by installing PostgreSQL, and create a new database and populate it using the following commands:
 
-```CREATE TABLE students {
+```
+CREATE TABLE students {
 	student_id SERIAL PRIMARY KEY,
 	first_name VARCHAR(255) NOT NULL,
 	last_name VARCHAR(255) NOT NULL,
