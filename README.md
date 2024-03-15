@@ -1,7 +1,9 @@
-COMP3005 Assignment 3
+# COMP3005 Assignment 3
 
 Joseph McNamara
+
 101227263
+
 josephmcnamara@cmail.carleton.ca
 
 ## Video Demo
