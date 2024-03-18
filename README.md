@@ -31,7 +31,7 @@ INSERT INTO students (first_name, last_name, email, enrollment_date) VALUES
 ('Jim', 'Beam', 'jim.beam@example.com', '2023-09-02');
 ```
 
-Replace the username and password in the main.py file with your own credentials to successfully connect to the database:
+Replace the database connection credentials in the main.py file with your own credentials to successfully connect to the database:
 
 ```
 connection = psycopg2.connect(
