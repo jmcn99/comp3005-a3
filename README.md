@@ -31,6 +31,18 @@ INSERT INTO students (first_name, last_name, email, enrollment_date) VALUES
 ('Jim', 'Beam', 'jim.beam@example.com', '2023-09-02');
 ```
 
+Replace the username and password in the main.py file with your own credentials to successfully connect to the database:
+
+```
+connection = psycopg2.connect(
+      dbname='3005_assignment_3',
+      user='username',
+      password='password',
+      host='localhost',
+      port='5432'
+      )
+```
+
 ## Running the program
 
 To run the program, ensure you have Python 3+ installed, and begin by installing the psycopg2 library using pip:
